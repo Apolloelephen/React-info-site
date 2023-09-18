@@ -1,0 +1,34 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 20px 60px;
+    background-color: plum;
+}
+.navbar h1{
+    color: white;
+    font-weight: bolder;
+}
+.navlinks{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.navlinks li{
+    list-style-type: none;
+    justify-content: right;
+}
+.navlinks a{
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+.navlinks a:hover{
+    color: blueviolet;
+}
